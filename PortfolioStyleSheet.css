@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "My Font";
+    src: url(./Sansation-Regular.ttf);
+}
+
+p{
+    font-size: 20px;
+    margin-left: 10%;
+}
+.darkBlue{
+color: rgb(44, 59, 122);
+}
+
+h2,h3{
+    text-align: center;
+}
+h5{
+letter-spacing: 15%;
+font-size: 100%;
+color: rgb(0, 204, 255);
+
+}
+h4{
+letter-spacing: 20%;
+font-size: 300%;
+margin-left: 10%;
+
+}
+#TableLeft{
+    margin-left: 10%; 
+    width: 25%;
+    height: 15%;
+    text-align: center;
+}
+#backBlue{
+background-color: rgb(0, 204, 255);
+}
+#Blue{
+    color: rgb(0, 204, 255);
+}
+#OutlineBlue{
+   
+   border-style: solid;
+   border-color:  rgb(0, 204, 255);
+   color:  rgb(0, 204, 255); 
+}
+#Intro{
+    
+    font-size: 125%;
+   margin-left: 30%;
+   margin-right:30% ;
+}
+
+body{
+    
+    background-size: contain;
+    background-color: rgb(12, 12, 14);
+    margin-top: 100px;
+    font-family: "My Font";
+    color: #ffffff;
+     background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, rgba(43, 31, 92, 0.39) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(43, 31, 92, 0.39) 1px, transparent 1px);
+    
+}
+header{
+    position: fixed;
+    font-size: 100%;
+    width:100%;
+    height: 10%;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    top:0;
+    left:0;
+    letter-spacing: 15%;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 204, 255);
+    border-bottom: 1px solid rgb(0, 60, 83);
+}
+table{
+     margin-left: 20%;
+     margin-right: 20%;
+     border-spacing: 30px;
+}
+img{
+    width: 100%;
+}
+.test{
+    box-shadow: inset 0px -300px 30px -30px rgba(0, 0, 0, 0.795);
+    background-size:cover;
+    border-style: solid;
+     border-color: #002153;
+     border-width: 3px;
+}
+.test2{
+    height: 300px;
+}
+.TableText{
+    margin-top: 45%;
+    margin-bottom: 5%;
+    text-align:left ;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a:link {
+  color: rgb(25, 0, 255);
+}
+
+a:visited {
+  color: rgb(255, 0, 0);
+}
+
+a:hover {
+  color: rgb(63, 92, 255);
+}
+
+a:active {
+  color: blue;
+}
+div{
+    animation-name: Changeing;
+    animation-duration: 4s;
+    color: rgb(44, 59, 122);
+}
+@keyframes Changeing{
+    from{width: 0}
+    to{width: 100%}
+}
+
+
